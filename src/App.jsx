@@ -245,9 +245,6 @@ export default function App() {
     return `${window.location.origin}${window.location.pathname}#${json}`;
   };
 
-  const [shareOpen, setShareOpen] = useState(false);
-  const [shareUrl, setShareUrl] = useState("");
-
   const openShare = async () => {
     const url = buildShareUrl();
     setShareUrl(url);
