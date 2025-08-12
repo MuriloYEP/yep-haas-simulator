@@ -247,7 +247,6 @@ export default function App() {
 
   const [shareOpen, setShareOpen] = useState(false);
   const [shareUrl, setShareUrl] = useState("");
-  const [shareCopied, setShareCopied] = useState(false);
 
   const openShare = async () => {
     const url = buildShareUrl();
